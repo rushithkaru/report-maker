@@ -12,7 +12,7 @@ import os
 print(os.environ.get("timedb"))
 
 def get_data():
-    CONNECTION = "postgres://tsdbadmin:V4tJ3wC#I!13be@povmnx4wqj.pppodlu709.tsdb.cloud.timescale.com:35084/tsdb?sslmode=require"
+    
 
     df = pd.DataFrame(columns=['DateTime','sensor_id','temp','cpu'])
 
