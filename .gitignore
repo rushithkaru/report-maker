@@ -131,3 +131,4 @@ dmypy.json
 creds.py
 graphs/
 reports/
+.DS_Store
