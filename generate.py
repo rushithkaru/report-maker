@@ -65,7 +65,7 @@ def create_report():
     pdf.set_font('helvetica', size=12)
     pdf.cell(txt="hello world")
     pdf.image('graphs/trial2.png', x=50, y=100, w=50, h=50)
-    pdf.output("reports/hello_world.pdf")
+    pdf.output("reports/file1.pdf")
 
 if __name__ == "__main__":
     
